@@ -20,3 +20,7 @@ die_hard = media.Movie("Die Hard", "New York City policeman John McClane (Bruce 
 
 movies = [toy_story, avatar, braveheart, gladiator, mission_impossible, die_hard]
 fresh_tomatoes.open_movies_page(movies)
+print(media.Movie.VALID_RATING)
+print(media.Movie.__doc__)
+print(media.Movie.__name__)
+print(media.Movie.__module__)
